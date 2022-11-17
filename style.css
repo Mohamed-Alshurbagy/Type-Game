@@ -224,7 +224,7 @@ input {
  
  @media (max-width: 767px){
    .main {
-     width: calc(100% - 40px);
+     width: calc(100vh - 20px);
      padding: 5px
    }
    
