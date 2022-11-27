@@ -54,7 +54,6 @@ body {
 .main header h1 {
     color: #fff;
     background-color: var(--mcolor);
-    width: 100%;
     width: 70%;
     text-align: center;
     margin: 16px auto 0;
@@ -224,7 +223,7 @@ input {
  
  @media (max-width: 767px){
    .main {
-     width: calc(100vh - 20px);
+     width: calc(100% - 20px);
      padding: 5px
    }
    
