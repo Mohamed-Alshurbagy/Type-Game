@@ -26,14 +26,14 @@
 }
 
 .burger-icon {
-width: 30px;
-height: 25px;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-z-index: 10000;
-display: none;
-cursor: pointer;
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    z-index: 10000;
+    display: none;
+    cursor: pointer;
 }
 
 .burger-icon span {
@@ -217,7 +217,8 @@ nav div {
     .main {
         width: calc(100% - 20px);
         padding: 5px;
-        height: calc(100vh - 40px);
+        margin: 10px auto;
+        height: calc(100vh - 20px);
     }
     
     .main header h1, .one h3, .details{
