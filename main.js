@@ -36,7 +36,7 @@ let nav = document.querySelector('nav');
 
 let close = document.querySelector('nav div');
 
-//Reset Past Event To False
+// Reset Past Event To False
 input.onpaste = function() {
    return false;
  };
@@ -103,7 +103,7 @@ let lvl = {
     Hard: 3,
 };
 
-// Closeing Navbar On Media < 767px;
+// Closeing Navbar On Phone, iPad & Tqblets;
 
 close.onclick = function(){
   nav.classList.remove('open')
@@ -173,8 +173,7 @@ function Play(){
       clearInterval(second);
       creatWords();
     }
-    else if (time.innerHTML
-    === "0" & input.value !== wordToWrite.innerHTML){
+    else if (time.innerHTML === "0" & input.value !== wordToWrite.innerHTML){
       wordToWrite.innerHTML = 'Game Over !';
       input.remove();
       wordToWrite.classList.add('game-over');
