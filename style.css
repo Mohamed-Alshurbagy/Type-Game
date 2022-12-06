@@ -1,4 +1,3 @@
-
 :root {
     --mcolor: #003880;
 }
@@ -26,14 +25,14 @@
 }
 
 .burger-icon {
-    width: 30px;
-    height: 25px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    z-index: 10000;
-    display: none;
-    cursor: pointer;
+width: 30px;
+height: 25px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+z-index: 10000;
+display: none;
+cursor: pointer;
 }
 
 .burger-icon span {
@@ -211,25 +210,23 @@ nav div {
     animation: name 1.3s linear infinite;
 }
 
-/* Just One Media.. */
+/* Just Two Media.. */
 
-@media (max-width: 767px){
+@media (min-width: 320px) and (max-width: 768px){
     .main {
         width: calc(100% - 20px);
         padding: 5px;
-        margin: 10px auto;
-        height: calc(100vh - 20px);
+        height: calc(100vh - 40px);
     }
     
     .main header h1, .one h3, .details{
         width: 90%;
     }
     .main header h1 {
-        color: #fff;
+        color: #f2e6e6;
         padding: 10px;
     }
     .one h3 {
-        font-size: 17px;
         margin-top: -30px;
         border: 1px solid black;
         font-size: 20px;
@@ -322,4 +319,5 @@ nav div {
         display: none;
 }
 }
+
 /* End Of The Code */
