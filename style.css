@@ -216,8 +216,8 @@ nav div {
     .main {
         width: calc(100% - 20px);
         padding: 5px;
-        margin: 10px auto;
-        height: calc(100vh - 20px);
+        margin: 0 auto;
+        height: 100vh;
     }
     
     .main header h1, .one h3, .details{
