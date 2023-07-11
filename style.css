@@ -210,7 +210,7 @@ nav div {
 
 /* Just Two Media.. */
 
-@media (max-width: 990px){
+@media (max-width: 394px){
     html {
         font-size: 8px;
     }
@@ -264,7 +264,7 @@ nav div {
         justify-content: center;
     }
     .one h3, .main header h1, .info, input{
-        width: 70%;
+        width: 96%;
     
     }
     .one h3 {
